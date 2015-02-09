@@ -3,7 +3,7 @@ import sys
 seed = open("seed.hwp","rb").read()
 mutfile = open("mutfile.hwp","rb").read()
 if(len(seed) != len(mutfile)):
-    print "Diffrent file size ! "
+    print "Different file size ! "
     sys.exit()
 else:
     length = len(seed)
