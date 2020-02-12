@@ -7,8 +7,8 @@ def inverse(a):
     return np.rad2deg(np.arctan(np.sinh(a)))
     
 def appfort_hash_score(hash):
-
-  // polymorphism binary hash
+  score = 0
+  # polymorphism binary hash
   ax = axs[2, 0]
   ax.plot(x, y)
   ax.grid(True)
@@ -31,9 +31,14 @@ def appfort_hash_score(hash):
         c0 = polysub(c[i - 2], c1*(2*(i - 1)))
         c1 = polyadd(tmp, polymulx(c1)*2)
         
-  //
-  //
-  //
-  //
+  #
+  #
+  #
+  #
+  #
+  #
+  #
+  #
+  #
 
   return score
